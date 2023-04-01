@@ -10,7 +10,7 @@ const Pageheader = () => (
       <nav className={styles['navbar']}>
         <ul className={styles['navlinks']}>
           <li className={styles['navlinks-item']}>Books</li>
-          <li className={styles['navlinksclea-item']}>Categories</li>
+          <li className={styles['navlinks-item']}>Categories</li>
         </ul>
       </nav>
     </div>
