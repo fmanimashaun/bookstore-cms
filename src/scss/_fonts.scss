@@ -1,0 +1,10 @@
+/* import fonts */
+
+/* Robaga Rounded font */
+@font-face {
+  font-family: 'Robaga Rounded';
+  src: url("../fonts/robaga_rounded/Robaga_Rounded_Regular.otf") format('TrueType');
+  font-weight: normal;
+}
+
+$primary-ff:'Robaga Rounded', sans-serif;
