@@ -29,8 +29,8 @@
 Bookstore CMS is a web application that allows users to manage their bookstore. It allows users to add, remove, and edit books. It also allows users to add categories to books. The application is built with React and Redux.
 
 - [ ] The application is a single-page app built with React and Redux.
-- [ ] The user can add a book to the store.
-- [ ] The user can remove a book from the store.
+- [ ] The user can add a book.
+- [ ] The user can remove a book.
 - [ ] The user can edit a book's title and author.
 - [ ] The user can see a list of all the books.
 
