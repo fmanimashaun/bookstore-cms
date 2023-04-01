@@ -1,15 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'scss/style.scss';
-import App from 'js/routes/App';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import 'scss/styles.scss';
+import Root from 'js/routes/root';
+import ErrorPage from 'js/error-page';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <Root />,
+      errorElement: <ErrorPage />,
+    },
+  ],
+  {
+    basename: '/bookstore-cms', // The base URL of the app
+  },
+);
 
-root.render(
+const root = document.getElementById('root');
+
+ReactDOM.createRoot(root).render(
   <React.StrictMode>
-    <Router basename="/bookstore-cms">
-      <App />
-    </Router>
+    <RouterProvider router={router} />
   </React.StrictMode>,
 );
