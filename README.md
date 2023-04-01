@@ -28,23 +28,23 @@
 
 Bookstore CMS is a web application that allows users to manage their bookstore. It allows users to add, remove, and edit books. It also allows users to add categories to books. The application is built with React and Redux.
 
-- [x] The application is a single-page app built with React and Redux.
-- [x] The data is preserved in the Redux store and it is the single source of truth.
-- [x] The data that was retrieved from the API is stored in the Redux store.
-- [x] The user can filter the books by category.
-- [x] The user can add a book to the store.
-- [x] The user can remove a book from the store.
-- [x] The user can add a category to the store.
-- [x] The user can remove a category from the store.
-- [x] The user can add a book to a category.
-- [x] The user can remove a book from a category.
-- [x] The user can edit a book's title and author.
-- [x] The user can edit a category's name.
-- [x] The user can see a list of all the books.
-- [x] The user can see a list of all the categories.
-- [x] The user can see a list of all the books in a category.
-- [x] The user can see a list of all the categories that a book belongs to.
-- [x] The user can see a list of all the books that belong to a category.
+- [ ] The application is a single-page app built with React and Redux.
+- [ ] The data is preserved in the Redux store and it is the single source of truth.
+- [ ] The data that was retrieved from the API is stored in the Redux store.
+- [ ] The user can filter the books by category.
+- [ ] The user can add a book to the store.
+- [ ] The user can remove a book from the store.
+- [ ] The user can add a category to the store.
+- [ ] The user can remove a category from the store.
+- [ ] The user can add a book to a category.
+- [ ] The user can remove a book from a category.
+- [ ] The user can edit a book's title and author.
+- [ ] The user can edit a category's name.
+- [ ] The user can see a list of all the books.
+- [ ] The user can see a list of all the categories.
+- [ ] The user can see a list of all the books in a category.
+- [ ] The user can see a list of all the categories that a book belongs to.
+- [ ] The user can see a list of all the books that belong to a category.
 
 
 ### Project Objectives <a name="project-objectives"></a>
