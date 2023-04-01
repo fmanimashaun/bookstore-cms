@@ -1,0 +1,62 @@
+/* stylelint-disable at-rule-no-unknown */
+/* stylelint-disable csstree/validator */
+@use './fonts.scss' as font;
+@use '_colors.scss' as color;
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-block: 1.438rem;
+  font-family: font.$primary-ff;
+}
+
+.logo {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: color.$azure;
+}
+
+.nav-wrapper,
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-wrapper {
+  gap: 2.938rem;
+}
+
+.navbar {
+}
+
+.navlinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2.563rem;
+}
+
+.navlinks-item {
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  color: #121212;
+  text-transform: uppercase;
+}
+
+.profile {
+  border-radius: 50%;
+  padding: 0.875rem 0.9688rem;
+  border: 1px solid color.$light-gray;
+  background-color: color.$white;
+
+  &-img {
+    width: 1.063rem;
+    height: 1.063rem;
+    color: color.$azure;
+  }
+}
