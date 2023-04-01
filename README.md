@@ -54,6 +54,7 @@ Bookstore CMS is a web application that allows users to manage their bookstore. 
 - [VSCode](https://code.visualstudio.com/)
 - [react router](https://reactrouter.com/)
 - [react redux](https://react-redux.js.org/)
+- [react icons](https://react-icons.github.io/react-icons/)
 
 
 
