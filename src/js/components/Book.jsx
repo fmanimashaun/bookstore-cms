@@ -5,8 +5,24 @@ import styles from 'scss/book.module.scss';
 
 const Book = ({ title, author }) => (
   <div className={styles.book}>
-    <h3 className={styles['book__title']}>{title}</h3>
-    <p className={styles['book__author']}>{author}</p>
+    <div className={styles['book__details-wrapper']}>
+      <div className={styles['book__details']}>
+        <span className={styles['book__category']}>category</span>
+        <h3 className={styles['book__title']}>{title}</h3>
+        <p className={styles['book__author']}>{author}</p>
+      </div>
+      <div className={styles['book__actions']}>
+        <button className={styles['book__btn']} type="button">
+          Comments
+        </button>
+        <button className={styles['book__btn']} type="button">
+          Remove
+        </button>
+        <button className={styles['book__btn']} type="button">
+          Edit
+        </button>
+      </div>
+    </div>
   </div>
 );
 
