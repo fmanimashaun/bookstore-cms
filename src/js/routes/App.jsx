@@ -1,20 +1,20 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import CalculatorPage from 'pages/CalculatorPage';
-import Home from 'pages/Home';
-import NotFound from 'pages/NotFound';
-import QuotePage from 'pages/QuotePage';
-import PageHeader from './PageHeader';
+import Pageheader from 'js/components/pageheader';
+import ErrorPage from './ErrorPage';
+import Home from './Home';
+import Categories from './Categories';
 
 const App = () => (
   <>
-    <PageHeader />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="calculator" element={<CalculatorPage />} />
-      <Route path="quote" element={<QuotePage />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
+    <Pageheader />
+    <main className="main">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="categories" element={<Categories />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </main>
   </>
 );
 

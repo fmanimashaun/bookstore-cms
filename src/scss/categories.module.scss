@@ -1,0 +1,29 @@
+/* stylelint-disable at-rule-no-unknown */
+/* stylelint-disable csstree/validator */
+@use './fonts.scss' as font;
+@use '_colors.scss' as color;
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 0.938rem;
+  width: 100%;
+  max-width: 87.5rem;
+  padding: 1.438rem 1.688rem;
+  margin-inline: auto;
+}
+
+.categories__btn {
+  width: fit-content;
+  padding: 0.886rem 1.438rem;
+  border: none;
+  text-transform: uppercase;
+  font-family: font.$secondary-ff;
+  font-size: 0.813rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  background-color: color.$azure;
+  color: color.$white;
+  cursor: pointer;
+}
