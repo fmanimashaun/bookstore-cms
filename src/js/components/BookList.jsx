@@ -5,16 +5,16 @@ import Book from './Book';
 const Books = () => {
   const books = [
     {
-      title: 'Harry Potter',
-      author: 'J.K. Rowling',
+      title: 'The Hunger Games',
+      author: 'Suzanne Collins',
     },
     {
-      title: 'Ensayo sobre la ceguera',
-      author: 'José Saramago',
+      title: 'Dune',
+      author: 'Frank Herbert',
     },
     {
-      title: 'Dracula',
-      author: 'Bram Stocker',
+      title: 'Capital in the Twenty-First Century',
+      author: 'suzanne collins',
     },
   ];
   return (
