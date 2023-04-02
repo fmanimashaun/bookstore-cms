@@ -110,6 +110,8 @@ To get a local copy up and running follow these simple example steps.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] Add various page components.
+- [ ] Upgrade the book card with new interactive functures
+- [ ] Add a progress bar to show the progress of the book.
 
 ## 🤝 Contributing <a name="contributing"></a>
 
