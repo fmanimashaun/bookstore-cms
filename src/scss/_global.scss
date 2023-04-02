@@ -32,19 +32,19 @@ body {
   min-height: 100vh;
   margin-inline: auto;
 
-  &>* {
+  & > * {
     max-width: 100%;
   }
 
-  &>main {
+  & > main {
     margin-block: 0 auto;
   }
 
-  &> :first-child:not(main) {
+  & > :first-child:not(main) {
     margin-block-start: 0;
   }
 
-  &> :last-child:not(main) {
+  & > :last-child:not(main) {
     margin-block-end: 0;
   }
 }

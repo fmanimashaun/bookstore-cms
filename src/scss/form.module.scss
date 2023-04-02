@@ -1,3 +1,5 @@
+/* stylelint-disable at-rule-no-unknown */
+/* stylelint-disable csstree/validator */
 @use './fonts.scss' as font;
 @use '_colors.scss' as color;
 
@@ -46,7 +48,6 @@
 
 .author {
   flex-basis: calc((100% - (2.125rem * 2)) / 3);
-  padding: 0.813rem 1.063rem;
   padding: 0.813rem 1.063rem;
   font-family: font.$primary-ff;
   font-size: 1rem;
