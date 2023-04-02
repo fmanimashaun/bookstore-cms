@@ -1,26 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'scss/styles.scss';
-import Root from 'js/routes/root';
-import ErrorPage from 'js/error-page';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import App from 'js/routes/App';
+import Home from 'js/routes/Home';
+import Categories from 'js/routes/Categories';
+import ErrorPage from 'js/routes/ErrorPage';
 
-const router = createBrowserRouter(
-  [
-    {
-      path: '/',
-      element: <Root />,
-      errorElement: <ErrorPage />,
-    },
-  ],
+const router = createBrowserRouter([
   {
-    basename: '/bookstore-cms', // The base URL of the app
+    path: '/',
+    element: <App />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: '/',
+        element: <Home />,
+      },
+      {
+        path: '/categories',
+        element: <Categories />,
+      },
+    ],
   },
-);
+],
+{
+  basename: '/bookstore-cms',
+});
 
-const root = document.getElementById('root');
-
-ReactDOM.createRoot(root).render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>,
