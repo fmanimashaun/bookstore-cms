@@ -4,27 +4,31 @@
 @use '_colors.scss' as color;
 
 .header {
+  width: 100%;
+  font-family: font.$primary-ff;
+  background-color: color.$white;
+}
+
+.header__wrapper,
+.nav-wrapper,
+.navlinks {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+}
+
+.header__wrapper {
+  justify-content: space-between;
   width: 100%;
-  margin: 0 auto;
-  padding-block: 1.438rem;
-  font-family: font.$primary-ff;
+  max-width: 87.5rem;
+  padding: 1.438rem 1.688rem;
+  margin-inline: auto;
 }
 
 .logo {
   font-size: 1.875rem;
   font-weight: bold;
   color: color.$azure;
-}
-
-.nav-wrapper,
-.navlinks {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .nav-wrapper {
