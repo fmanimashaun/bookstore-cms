@@ -5,14 +5,9 @@ import ErrorPage from './ErrorPage';
 import Home from './Home';
 import Categories from './Categories';
 
-const navLinks = [
-  { to: '/', label: 'Books' },
-  { to: '/categories', label: 'Categories' },
-];
-
 const App = () => (
   <>
-    <Pageheader navLinks={navLinks} />
+    <Pageheader />
     <main className="main">
       <Routes>
         <Route path="/" element={<Home />} />
