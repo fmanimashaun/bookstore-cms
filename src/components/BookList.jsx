@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from 'scss/booklist.module.scss';
+import styles from 'assets/scss/booklist.module.scss';
 import Book from './Book';
 
 const Books = () => {

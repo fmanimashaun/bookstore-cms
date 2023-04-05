@@ -1,6 +1,6 @@
 /* eslint-disable dot-notation */
 import React from 'react';
-import styles from 'scss/form.module.scss';
+import styles from 'assets/scss/form.module.scss';
 
 const Form = () => (
   <section className={styles.addbook}>

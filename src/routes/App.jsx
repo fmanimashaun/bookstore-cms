@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Pageheader from 'js/components/pageheader';
+import Pageheader from 'components/pageheader';
 import ErrorPage from './ErrorPage';
 import Home from './Home';
 import Categories from './Categories';

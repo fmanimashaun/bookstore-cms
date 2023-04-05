@@ -1,6 +1,6 @@
 /* eslint-disable dot-notation */
 import React, { useState } from 'react';
-import styles from 'scss/categories.module.scss';
+import styles from 'assets/scss/categories.module.scss';
 
 const Categories = () => {
   const [show, setShow] = useState(false);

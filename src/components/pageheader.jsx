@@ -2,7 +2,7 @@
 import React from 'react';
 import { FaUserAlt } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
-import styles from 'scss/header.module.scss';
+import styles from 'assets/scss/header.module.scss';
 
 const Pageheader = () => {
   const navLinks = [
