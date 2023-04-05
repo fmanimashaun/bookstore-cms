@@ -1,4 +1,3 @@
-/* eslint-disable dot-notation */
 import React from 'react';
 import BookList from 'components/BookList';
 import Form from 'components/Form';
