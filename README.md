@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/fmanimashaun-green)
 
-# Bookstore CMS
+## 📗 Table of Contents <a name="readme-top"></a>
 
-## 📗 Table of Contents
-
-- [📖 Overview](#about-project)
+- [📖 Bookstore CMS](#about-project)
   - [Project Objectives](#project-objectives)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -23,8 +21,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-
-## 📖 Overview <a name="about-project"></a>
+# 📖 Bookstore CMS <a name="about-project"></a>
 
 Bookstore CMS is a web application that allows users to manage their bookstore. It allows users to add, remove, and edit books. It also allows users to add categories to books. The application is built with React and Redux.
 
@@ -34,11 +31,12 @@ Bookstore CMS is a web application that allows users to manage their bookstore. 
 - [ ] The user can edit a book's title and author.
 - [ ] The user can see a list of all the books.
 
-### Project Objectives <a name="project-objectives"></a>
+## Project Objectives <a name="project-objectives"></a>
 
 - [x] create a React app and install basic dependencies as React-Redux.
 - [x] create routes and view components (Routers for the app).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -56,11 +54,16 @@ Bookstore CMS is a web application that allows users to manage their bookstore. 
 - [react redux](https://react-redux.js.org/)
 - [react icons](https://react-icons.github.io/react-icons/)
 
-
-
 ### Key Features <a name="key-features"></a>
 
 - [x] Setting up a react app.
+- [x] Setting up react router.
+- [x] Setting up redux.
+- [x] Setting up react redux.
+- [x] Setting up react icons.
+- [x] Adding redux store.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -69,6 +72,8 @@ Bookstore CMS is a web application that allows users to manage their bookstore. 
 <p align="center">
   <img width="500" src="screenshot/demo.png">
 </P>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -98,6 +103,8 @@ To get a local copy up and running follow these simple example steps.
 
 - run `npm run start` to run it locally.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Authors <a name="authors"></a>
 
 👤 **Engr. Animashaun Fisayo**
@@ -107,11 +114,15 @@ To get a local copy up and running follow these simple example steps.
 - [LinkedIn](https://www.linkedin.com/in/fmanimashaun/)
 - [Website](https://fmanimashaun.com)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] Add various page components.
 - [ ] Upgrade the book card with new interactive functures
 - [ ] Add a progress bar to show the progress of the book.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -119,13 +130,21 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgements <a name="acknowledgements"></a>
 
 - [Microverse](https://www.microverse.org/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 📝 License <a name="license"></a>
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
