@@ -9,9 +9,10 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
+  - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
@@ -25,11 +26,11 @@
 
 Bookstore CMS is a web application that allows users to manage their bookstore. It allows users to add, remove, and edit books. It also allows users to add categories to books. The application is built with React and Redux.
 
-- [ ] The application is a single-page app built with React and Redux.
-- [ ] The user can add a book.
-- [ ] The user can remove a book.
-- [ ] The user can edit a book's title and author.
-- [ ] The user can see a list of all the books.
+- [x] The application is a single-page app built with React and Redux.
+- [x] The user can add a book.
+- [x] The user can remove a book.
+- [x] The user can edit a book's title and author.
+- [x] The user can see a list of all the books.
 
 ## Project Objectives <a name="project-objectives"></a>
 
@@ -56,12 +57,10 @@ Bookstore CMS is a web application that allows users to manage their bookstore. 
 
 ### Key Features <a name="key-features"></a>
 
-- [x] Setting up a react app.
-- [x] Setting up react router.
-- [x] Setting up redux.
-- [x] Setting up react redux.
-- [x] Setting up react icons.
-- [x] Adding redux store.
+- [x] The user can add a book.
+- [x] The user can remove a book.
+- [x] The user can see a list of all the books.
+- [x] the user can change page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,6 +76,8 @@ Bookstore CMS is a web application that allows users to manage their bookstore. 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+### Prerequisites <a name="prerequisites"></a>
+
 - [Optional] Install git bash to your machine to enable you to clone this repo.
 - install Visual Studio to be able to host a local live version.
 - Install a browser to view the local live version.
@@ -84,24 +85,77 @@ Bookstore CMS is a web application that allows users to manage their bookstore. 
 To get a local copy up and running follow these simple example steps.
 ### Setup <a name="setup"></a>
 
-- Open your GitHub account the repository's [link](https://github.com/fmanimashaun/bookstore-cms)
+Clone this repository to your desired folder:
 
-### Prerequisites <a name="prerequisites"></a>
+```sh
+  cd your-desired-folder
+  git clone https://github.com/fmanimashaun/bookstore-cms.git
+  open the repo folder `bookstore-cms`
+```
 
-- Internet connection
-- A github account
 ### Install <a name="install"></a>
 
-- copy the repo's link and clone it by writing `git clone https://github.com/fmanimashaun/bookstore-cms.git` on your git bash terminal.
-- `npm install` to install the dependencies.
+Install this project dependencies with:
+
+```sh
+  npm install
+```
+
+### Usage <a name="usage"></a>
+
+To run the project, execute the following command:
+
+```sh
+  npm run start
+```
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ### Run tests <a name="run-tests"></a>
 
-- You can check for errors by running linter tests found in the github flows.
+To run tests to check the lint errors, run the following command:
+
+- To check for CSS lint errors, run the following command:
+
+```sh
+  npm run stylelint
+```
+
+- To check for JS lint errors, run the following command:
+
+```sh
+  npm run eslinter
+```
+
+To run unit tests, run the following command:
+
+```sh
+  npm run test
+```
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### Deployment <a name="deployment"></a>
 
-- run `npm run start` to run it locally.
+You can deploy this project to github pages by running the following command:
+
+```sh
+  npm run deploy
+
+```
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+and it is automatically deployed to the github page.
+
+See the section about [github page deployment](https://github.com/gitname/react-gh-pages) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
