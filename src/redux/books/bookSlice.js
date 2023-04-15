@@ -12,7 +12,7 @@ export const fetchBooks = createAsyncThunk('books/fetchBooks', async () => {
   }
 
   const data = await Object.entries(response.data).map(([key, value]) => ({
-    id: key,
+    item_id: key,
     ...value[0],
   }));
   return data;
@@ -28,10 +28,10 @@ export const addBook = createAsyncThunk('books/addBook', async (book) => {
 
 export const removeBook = createAsyncThunk('books/removeBook', async (id) => {
   const response = await axios.delete(`${URL}/${id}`);
-  if (response.status !== 200) {
+  if (response.status !== 201) {
     throw new Error(response.statusText);
   }
-  return response.data;
+  return id;
 });
 
 const initialState = {
@@ -64,7 +64,7 @@ const bookSlice = createSlice({
       .addCase(addBook.fulfilled, (state, action) => ({
         ...state,
         status: 'succeeded',
-        bookList: action.payload,
+        bookList: [...state.bookList, action.payload],
       }))
       .addCase(addBook.rejected, (state) => ({
         ...state,
@@ -77,7 +77,9 @@ const bookSlice = createSlice({
       .addCase(removeBook.fulfilled, (state, action) => ({
         ...state,
         status: 'succeeded',
-        bookList: action.payload,
+        bookList: state.bookList.filter(
+          (book) => book.item_id !== action.payload,
+        ),
       }))
       .addCase(removeBook.rejected, (state) => ({
         ...state,
