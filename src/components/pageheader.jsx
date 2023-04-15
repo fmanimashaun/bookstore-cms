@@ -1,4 +1,3 @@
-/* eslint-disable dot-notation */
 import React from 'react';
 import { FaUserAlt } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
@@ -12,16 +11,16 @@ const Pageheader = () => {
 
   return (
     <header className={styles.header}>
-      <div className={styles['header__wrapper']}>
-        <div className={styles['nav-wrapper']}>
-          <span className={styles['logo']}>Bookstore CMS</span>
-          <nav className={styles['navbar']}>
-            <ul className={styles['navlinks']}>
+      <div className={styles.header__wrapper}>
+        <div className={styles.nav__wrapper}>
+          <span className={styles.logo}>Bookstore CMS</span>
+          <nav className={styles.navbar}>
+            <ul className={styles.navlinks}>
               {navLinks.map((link) => (
                 <NavLink
                   key={link.to}
                   to={link.to}
-                  className={styles['navlinks-item']}
+                  className={styles.navlinks__item}
                 >
                   {link.label}
                 </NavLink>
@@ -29,8 +28,8 @@ const Pageheader = () => {
             </ul>
           </nav>
         </div>
-        <button type="button" className={styles['profile']}>
-          <FaUserAlt className={styles['profile-img']} />
+        <button type="button" className={styles.profile}>
+          <FaUserAlt className={styles.profile__img} />
         </button>
       </div>
     </header>

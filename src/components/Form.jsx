@@ -1,4 +1,3 @@
-/* eslint-disable dot-notation */
 import React, { useState } from 'react';
 import styles from 'assets/scss/form.module.scss';
 import { v4 as uuidv4 } from 'uuid';
@@ -37,7 +36,7 @@ const Form = () => {
 
   return (
     <section className={styles.addbook}>
-      <div className={styles['addbook__wrapper']}>
+      <div className={styles.addbook__wrapper}>
         <h2 className={styles.heading}>Add new book</h2>
         <form className={styles.form} onSubmit={handleSubmit}>
           <input
