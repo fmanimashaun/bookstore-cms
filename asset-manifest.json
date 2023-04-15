@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bookstore-cms/static/css/main.1818fb05.css",
-    "main.js": "/bookstore-cms/static/js/main.490ac8c0.js",
+    "main.css": "/bookstore-cms/static/css/main.b99f3fec.css",
+    "main.js": "/bookstore-cms/static/js/main.080f4b18.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "/bookstore-cms/static/media/Montserrat-VariableFont_wght.c28a96c369871653b853.ttf",
     "static/media/RobotoSlab-VariableFont_wght.ttf": "/bookstore-cms/static/media/RobotoSlab-VariableFont_wght.0f487055f06de7d71db5.ttf",
     "index.html": "/bookstore-cms/index.html",
-    "main.1818fb05.css.map": "/bookstore-cms/static/css/main.1818fb05.css.map",
-    "main.490ac8c0.js.map": "/bookstore-cms/static/js/main.490ac8c0.js.map"
+    "main.b99f3fec.css.map": "/bookstore-cms/static/css/main.b99f3fec.css.map",
+    "main.080f4b18.js.map": "/bookstore-cms/static/js/main.080f4b18.js.map"
   },
   "entrypoints": [
-    "static/css/main.1818fb05.css",
-    "static/js/main.490ac8c0.js"
+    "static/css/main.b99f3fec.css",
+    "static/js/main.080f4b18.js"
   ]
 }
