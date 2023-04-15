@@ -22,7 +22,7 @@ const Book = ({ book }) => {
           <button
             className={styles['book__btn']}
             type="button"
-            onClick={() => dispatch(removeBook(book.id))}
+            onClick={() => dispatch(removeBook(book.item_id))}
           >
             Remove
           </button>
@@ -38,7 +38,7 @@ const Book = ({ book }) => {
 Book.propTypes = {
   book: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    id: PropTypes.string.isRequired,
+    item_id: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
     category: PropTypes.string.isRequired,
   }).isRequired,

@@ -14,11 +14,9 @@ const Books = () => {
 
   return (
     <section className={styles.booklist}>
-      {Object.entries(bookList)
-        .map(([key, value]) => ({ ...value[0], id: key }))
-        .map((book) => (
-          <Book key={book.id} book={book} />
-        ))}
+      {bookList.map((book) => (
+        <Book key={book.item_id} book={book} />
+      ))}
     </section>
   );
 };
