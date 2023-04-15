@@ -31,7 +31,7 @@
   color: color.$azure;
 }
 
-.nav-wrapper {
+.nav__wrapper {
   gap: 2.938rem;
 }
 
@@ -42,7 +42,7 @@
   gap: 2.563rem;
 }
 
-.navlinks-item {
+.navlinks__item {
   font-size: 0.813rem;
   letter-spacing: 1.9px;
   color: color.$black;
@@ -55,7 +55,7 @@
   border: 1px solid color.$light-gray;
   background-color: color.$white;
 
-  &-img {
+  &__img {
     width: 1.063rem;
     height: 1.063rem;
     color: color.$azure;
