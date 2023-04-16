@@ -70,7 +70,15 @@ Bookstore CMS is a web application that allows users to manage their bookstore. 
 > [Live Demo Link](https://fmanimashaun.github.io/bookstore-cms/)
 
 <p align="center">
-  <img width="500" src="screenshot/demo.png">
+  <img width="1200" src="screenshot/desktop.png">
+</P>
+
+<p align="center">
+  <img width="600" src="screenshot/tablet.png">
+</P>
+
+<p align="center">
+  <img width="300" src="screenshot/mobile.png">
 </P>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
