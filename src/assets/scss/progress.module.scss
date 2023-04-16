@@ -1,0 +1,76 @@
+@use './fonts.scss' as font;
+@use '_colors.scss' as color;
+
+.progress__chart {
+  position: relative;
+  width: 4.25rem;
+  height: 4.25rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: color.$white;
+  }
+}
+
+.progress__percentage > * {
+  margin: 0;
+}
+
+.progress__fig {
+  font-size: 2rem;
+}
+
+.progress__fig {
+  font-size: 2rem;
+}
+
+.progress__text {
+  font-size: 0.875rem;
+  opacity: 0.5;
+}
+
+.progress__details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.438rem;
+}
+
+.progress__details > * {
+  margin: 0;
+}
+
+.progress__heading {
+  font-family: font.$secondary-ff;
+  font-size: 0.813rem;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+.progress__chapter {
+  font-family: font.$secondary-ff;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: -0.4px;
+}
+
+.progress__btn {
+  background-color: color.$azure;
+  font-family: font.$secondary-ff;
+  font-size: 0.813rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  padding: 0.5rem 1.375rem;
+  color: color.$white;
+  border-radius: 3px;
+  margin-block-start: 1.438rem;
+  border: none;
+  cursor: pointer;
+}

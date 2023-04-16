@@ -29,6 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  min-width: 375px;
   min-height: 100vh;
   margin-inline: auto;
 
@@ -47,4 +48,8 @@ body {
   & > :last-child:not(main) {
     margin-block-end: 0;
   }
+}
+
+.active {
+  opacity: 1 !important;
 }
