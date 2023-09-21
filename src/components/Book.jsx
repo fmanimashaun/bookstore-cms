@@ -1,7 +1,7 @@
 /* eslint-disable dot-notation */
 import React from 'react';
 import { PropTypes } from 'prop-types';
-import styles from 'scss/book.module.scss';
+import styles from 'assets/scss/book.module.scss';
 
 const Book = ({ title, author }) => (
   <div className={styles.book}>
