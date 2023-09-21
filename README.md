@@ -54,6 +54,7 @@ Bookstore CMS is a web application that allows users to manage their bookstore. 
 - [VSCode](https://code.visualstudio.com/)
 - [react router](https://reactrouter.com/)
 - [react redux](https://react-redux.js.org/)
+- [react icons](https://react-icons.github.io/react-icons/)
 
 
 
@@ -66,7 +67,7 @@ Bookstore CMS is a web application that allows users to manage their bookstore. 
 > [Live Demo Link](https://fmanimashaun.github.io/bookstore-cms/)
 
 <p align="center">
-  <img width="500" src="#">
+  <img width="500" src="screenshot/demo.png">
 </P>
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -109,6 +110,8 @@ To get a local copy up and running follow these simple example steps.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] Add various page components.
+- [ ] Upgrade the book card with new interactive functures
+- [ ] Add a progress bar to show the progress of the book.
 
 ## 🤝 Contributing <a name="contributing"></a>
 

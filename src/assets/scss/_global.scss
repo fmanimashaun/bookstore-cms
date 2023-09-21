@@ -1,5 +1,8 @@
+/* stylelint-disable at-rule-no-unknown */
+/* stylelint-disable csstree/validator */
 @use './fonts.scss' as font;
 @use '_colors.scss' as color;
+
 /* Global styles
 ------------------------------------ */
 *,
@@ -18,7 +21,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: font.$primary-ff;
-  background-color: color.$light-grey;
+  background-color: color.$off-white;
 }
 
 .container {
@@ -34,7 +37,7 @@ body {
   }
 
   & > main {
-    margin-block: auto;
+    margin-block: 0 auto;
   }
 
   & > :first-child:not(main) {
