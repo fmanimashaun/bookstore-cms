@@ -14,24 +14,6 @@
   background-color: color.$white;
 }
 
-.book__details {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2rem;
-  width: 100%;
-
-  @media only screen and (min-width: 831px) {
-    flex-direction: row;
-    align-items: flex-start;
-    gap: clamp(2rem, calc(-19.36rem + 44.27vw), 19.38rem);
-  }
-}
-
-.book__info {
-  flex-basis: 30%;
-}
-
 .book__category {
   font-family: font.$primary-ff;
   font-size: 0.875rem;
@@ -72,7 +54,6 @@
   font-size: 0.875rem;
   font-weight: 300;
   color: color.$cool-blue;
-  cursor: pointer;
 }
 
 .book__actions > .book__btn:not(:last-child) {
@@ -85,38 +66,4 @@
 
 .book__actions > .book__btn:first-child {
   padding-inline-end: 0.938rem;
-}
-
-.book__status {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 2rem;
-  margin-block: 1.313rem 0;
-
-  @media only screen and (min-width: 600px) {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 0;
-  }
-}
-
-.book__stats {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1.313rem;
-
-  @media only screen and (min-width: 600px) {
-    padding-inline-end: clamp(2rem, calc(-0.25rem + 6vw), 5rem);
-  }
-}
-
-.book__progress {
-  @media only screen and (min-width: 600px) {
-    padding-inline-start: clamp(2rem, calc(0.69rem + 3.5vw), 3.75rem);
-    border-inline-start: 1px solid color.$light-gray;
-  }
 }

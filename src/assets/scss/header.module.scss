@@ -10,18 +10,10 @@
 }
 
 .header__wrapper,
-<<<<<<< HEAD
-.nav__wrapper,
-.navlinks {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-=======
 .nav-wrapper,
 .navlinks {
   display: flex;
   flex-direction: row;
->>>>>>> 266c089f19f4621e96b2306982db5e8493525d3f
   align-items: center;
 }
 
@@ -39,25 +31,10 @@
   color: color.$azure;
 }
 
-<<<<<<< HEAD
-.nav__wrapper {
-  gap: 2.938rem;
-}
-
-.navbar {
-  display: none;
-
-  @media only screen and (min-width: 600px) {
-    display: block;
-  }
-}
-
-=======
 .nav-wrapper {
   gap: 2.938rem;
 }
 
->>>>>>> 266c089f19f4621e96b2306982db5e8493525d3f
 .navlinks {
   list-style: none;
   margin: 0;
@@ -65,90 +42,22 @@
   gap: 2.563rem;
 }
 
-<<<<<<< HEAD
-.navlinks__item {
-=======
 .navlinks-item {
->>>>>>> 266c089f19f4621e96b2306982db5e8493525d3f
   font-size: 0.813rem;
   letter-spacing: 1.9px;
   color: color.$black;
   text-transform: uppercase;
-<<<<<<< HEAD
-  text-decoration: none;
-  opacity: 0.5;
-}
-
-.navbar__mobile {
-  display: block;
-  flex-basis: 100%;
-
-  .navlinks {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0;
-    margin-block: 1rem;
-  }
-
-  .navlinks__item {
-    background-color: color.$azure;
-    color: color.$white;
-    padding: 0.875rem 1.875rem;
-    width: 100%;
-
-    &:hover {
-      opacity: 1;
-    }
-  }
-
-  @media only screen and (min-width: 600px) {
-    display: none;
-  }
 }
 
 .profile {
-  display: none;
-=======
-}
-
-.profile {
->>>>>>> 266c089f19f4621e96b2306982db5e8493525d3f
   border-radius: 50%;
   padding: 0.875rem 0.9688rem;
   border: 1px solid color.$light-gray;
   background-color: color.$white;
 
-<<<<<<< HEAD
-  @media only screen and (min-width: 600px) {
-    display: block;
-  }
-
-  &__icon {
-=======
   &-img {
->>>>>>> 266c089f19f4621e96b2306982db5e8493525d3f
     width: 1.063rem;
     height: 1.063rem;
     color: color.$azure;
   }
 }
-<<<<<<< HEAD
-
-.menu {
-  display: block;
-  border: 1px solid color.$light-gray;
-  background-color: color.$white;
-  cursor: pointer;
-
-  @media only screen and (min-width: 600px) {
-    display: none;
-  }
-
-  &__icon {
-    width: 2.1875rem;
-    height: 2.1875rem;
-    color: color.$azure;
-  }
-}
-=======
->>>>>>> 266c089f19f4621e96b2306982db5e8493525d3f

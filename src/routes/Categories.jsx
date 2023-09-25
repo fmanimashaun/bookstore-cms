@@ -1,3 +1,4 @@
+/* eslint-disable dot-notation */
 import React, { useState } from 'react';
 import styles from 'assets/scss/categories.module.scss';
 
@@ -14,7 +15,7 @@ const Categories = () => {
     <section className={styles.categories}>
       {show ? <p>The project is in progress...</p> : ''}
       <button
-        className={styles.categories__btn}
+        className={styles['categories__btn']}
         type="button"
         onClick={handleClick}
       >
