@@ -1,26 +1,15 @@
 import React from 'react';
 import styles from 'assets/scss/booklist.module.scss';
+import { useSelector } from 'react-redux';
 import Book from './Book';
 
 const Books = () => {
-  const books = [
-    {
-      title: 'The Hunger Games',
-      author: 'Suzanne Collins',
-    },
-    {
-      title: 'Dune',
-      author: 'Frank Herbert',
-    },
-    {
-      title: 'Capital in the Twenty-First Century',
-      author: 'suzanne collins',
-    },
-  ];
+  const bookList = useSelector((state) => state.books.bookList);
+
   return (
     <section className={styles.booklist}>
-      {books.map((book) => (
-        <Book key={book.title} title={book.title} author={book.author} />
+      {bookList.map((book) => (
+        <Book key={book.item_id} book={book} />
       ))}
     </section>
   );
