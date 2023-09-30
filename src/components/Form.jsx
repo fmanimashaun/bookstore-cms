@@ -46,6 +46,7 @@ const Form = () => {
             placeholder="Book title"
             onChange={handleChange}
             value={book.title}
+            required
           />
           <input
             className={styles.author}
@@ -54,6 +55,7 @@ const Form = () => {
             placeholder="Author"
             onChange={handleChange}
             value={book.author}
+            required
           />
           <input
             className={styles.author}
@@ -62,6 +64,7 @@ const Form = () => {
             placeholder="Category"
             onChange={handleChange}
             value={book.category}
+            required
           />
           <input
             className={styles['sumbit-btn']}
